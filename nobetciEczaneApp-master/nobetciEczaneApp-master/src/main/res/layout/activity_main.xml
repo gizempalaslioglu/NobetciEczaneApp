@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/pharmacy"
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:background="#d05ce3"
+        android:dividerHeight="1dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:backgroundTint="#ffd95a"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/listeleButon"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#9328A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Eczaneleri Listele"
+        android:textColor="#F3FF45"
+        android:textSize="30sp" />
+
+</LinearLayout>
