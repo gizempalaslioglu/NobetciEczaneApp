@@ -1,1 +1,2 @@
 # NobetciEczaneApp
+JSON kullanarak
